@@ -4,7 +4,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const buildPrompt = require('./prompt');
 
-const OWNER = '521xxx@c.us';
+const OWNER = '521xxx@c.us'; // Numero a los que solo podra conestar el boot
 
 const client = new Client();
 
@@ -33,7 +33,7 @@ client.on('message', async msg => {
   const response = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
     headers: {
-      'Authorization': 'Bearer sk-proj',
+      'Authorization': 'Bearer sk-proj', // Api privada que solo se puede generar en un openia, cada quien debe generar su api para usar el codigo
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
