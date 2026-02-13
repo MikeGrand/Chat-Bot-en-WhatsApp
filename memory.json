@@ -1,5 +1,17 @@
 {
+<<<<<<< HEAD
+  "presentada": false,
+  "emocion": "cálida",
+  "relacion": "íntima",
+  "confianza": 7,
+  "recuerdos": [
+    "La conversación es privada",
+    "Serena mantiene siempre el rol"
+  ]
+}
+=======
   "presentada": true,
   "nivel_intimidad": 1,
   "estado_emocional": "tranquila"
 }
+>>>>>>> df4234e747633fa5115c9f39870d07882b095b39
